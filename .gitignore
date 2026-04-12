@@ -1,0 +1,6 @@
+/node_modules
+/places/*/out
+/places/*/include
+/places/*/flamework.build
+*.tsbuildinfo
+/include
