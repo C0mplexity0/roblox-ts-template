@@ -25,3 +25,18 @@ This is a template for a multiplace roblox game using roblox-ts, based off of [r
 3. Clone the `:main` scripts in `package.json` and update the paths to reflect your new place name
 
 All of the code in `places/common` is shared between all places, along with any dependencies in `package.json`.
+
+## Tips
+
+You might want to do some of the following before using this template:
+
+- Update Roblox TS:
+```bash
+pnpm i roblox-ts@latest @rbxts/types@latest @rbxts/compiler-types@latest
+```
+- Update Flamework:
+```bash
+pnpm i @flamework/core@latest rbxts-transformer-flamework@latest @flamework/components@latest @flamework/networking@latest
+```
+
+Do remember that these updates may introduce breaking changes which you may have to deal with later.
