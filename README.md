@@ -8,6 +8,10 @@ This is a template for a multiplace roblox game using roblox-ts, based off of [r
 -   Support for multiple places, with shared code
 -   Flamework
 
+### TODO Features
+
+- [ ] GUI components with React
+
 ## Usage
 
 1. Clone this repository `git clone https://github.com/C0mplexity0/roblox-ts-template.git`
