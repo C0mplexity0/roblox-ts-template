@@ -27,6 +27,10 @@ All of the code in `places/common` is shared between all places, along with any 
 
 You might want to do some of the following before using this template:
 
+-   Switch to a new package manager:
+
+Currently this template uses pnpm, but you can switch to your preferred package manager by deleting the `pnpm-lock.yaml` and `.npmrc` files, and then running the install command for your new package manager.
+
 -   Update Roblox TS:
 
 ```bash
