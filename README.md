@@ -7,10 +7,7 @@ This is a template for a multiplace roblox game using roblox-ts, based off of [r
 -   Roblox TS type checking
 -   Support for multiple places, with shared code
 -   Flamework
-
-### TODO Features
-
-- [ ] GUI components with React
+-   React support with `@rbxts/react` and `@rbxts/react-roblox`
 
 ## Usage
 
@@ -30,11 +27,14 @@ All of the code in `places/common` is shared between all places, along with any 
 
 You might want to do some of the following before using this template:
 
-- Update Roblox TS:
+-   Update Roblox TS:
+
 ```bash
 pnpm i roblox-ts@latest @rbxts/types@latest @rbxts/compiler-types@latest
 ```
-- Update Flamework:
+
+-   Update Flamework:
+
 ```bash
 pnpm i @flamework/core@latest rbxts-transformer-flamework@latest @flamework/components@latest @flamework/networking@latest
 ```
