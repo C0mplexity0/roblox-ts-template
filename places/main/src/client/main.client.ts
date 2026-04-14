@@ -5,7 +5,7 @@ import { makeHello } from "shared/module";
 print(makeHello("main.client.ts"));
 print(makeHelloFromCommon("main.client.ts"));
 
-Flamework.addPaths("places/main/src/client/helloController.ts");
-Flamework.addPaths("places/common/src/client/helloCommonController.ts");
+Flamework.addPathsGlob("places/main/src/client/**/*");
+Flamework.addPathsGlob("places/common/src/client/**/*");
 
 Flamework.ignite();
